@@ -1,0 +1,110 @@
+{
+    "event_type": "uplink",
+    "event_data": {
+        "device_id": "e560a7a0-6ac1-11e9-bbae-291276b489cf",
+        "user_id": "9584b5b3-5df3-451c-ae32-5b69b630b63c",
+        "payload": [
+            {
+                "name": "RSSI",
+                "sensor_id": "e676d291-6ac1-11e9-bbae-291276b489cf",
+                "type": "rssi",
+                "unit": "dbm",
+                "value": -66
+            },
+            {
+                "name": "SNR",
+                "sensor_id": "",
+                "type": "snr",
+                "unit": "db",
+                "value": 10.3
+            },
+            {
+                "name": "Internal Temp",
+                "sensor_id": "e6567950-6ac1-11e9-83d1-63a5c9f1a5c5",
+                "type": "temp",
+                "unit": "c",
+                "value": 28.4
+            },
+            {
+                "name": "Humidity",
+                "sensor_id": "e676d290-6ac1-11e9-bbae-291276b489cf",
+                "type": "rel_hum",
+                "unit": "p",
+                "value": 24
+            },
+            {
+                "name": "Battery",
+                "sensor_id": "e67fac30-6ac1-11e9-bbae-291276b489cf",
+                "type": "batt",
+                "unit": "p",
+                "value": 100
+            }
+        ],
+        "topic": "v1/489e5e00-e9b9-11e8-856f-576d0834b8aa/things/e560a7a0-6ac1-11e9-bbae-291276b489cf/data/json",
+        "channel": "json",
+        "client_id": "489e5e00-e9b9-11e8-856f-576d0834b8aa",
+        "hardware_id": "001a380000800a6a",
+        "timestamp": 1559951809886,
+        "application_id": "iotinabox"
+    },
+    "company": {
+        "id": 0,
+        "address": "",
+        "city": "",
+        "country": "",
+        "created_at": null,
+        "industry": "",
+        "latitude": 0,
+        "longitude": 0,
+        "name": "",
+        "state": "",
+        "status": 0,
+        "timezone": "",
+        "updated_at": null,
+        "user_id": "",
+        "zip": ""
+    },
+    "device": {
+        "id": 77238,
+        "thing_name": "P01",
+        "created_at": null,
+        "updated_at": null,
+        "status": 0
+    },
+    "device_type": {
+        "id": "",
+        "application_id": "",
+        "category": "",
+        "codec": "",
+        "data_Type": "",
+        "description": "",
+        "manufacturer": "",
+        "model": "",
+        "name": "",
+        "parent_constraint": "",
+        "proxy_handler": "",
+        "subcategory": "",
+        "transport_protocol": "",
+        "version": "",
+        "created_at": null,
+        "updated_at": null
+    },
+    "location": {
+        "id": 0,
+        "address": "",
+        "city": "",
+        "country": "",
+        "created_at": null,
+        "industry": "",
+        "latitude": 0,
+        "longitude": 0,
+        "name": "",
+        "state": "",
+        "status": 0,
+        "timezone": "",
+        "updated_at": null,
+        "user_id": "",
+        "zip": "",
+        "company_id": 0
+    }
+}
